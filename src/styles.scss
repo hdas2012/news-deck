@@ -1,0 +1,53 @@
+$theme-color: #FF6600;
+
+body {
+  margin: 0rem;
+}
+.nav-top{
+  background: $theme-color;
+  padding: 0.2rem;
+  a{
+    &.item{
+      margin: 0px 5px;
+      text-decoration: none;
+      color: black;
+      &.active{
+        color: #fff;
+      }
+    }
+  }
+}
+.news-table{
+  .triangle{
+    font-size: 0.6rem;
+    color: #808080;
+    position: relative;
+    top: -0.2rem;
+    left: 0.3rem;
+    cursor: pointer;
+    &.upvoted{
+      color: #44de44;
+    }
+  }
+  .news-title{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .small{
+    font-size: 8pt;
+  }
+  .text-secondary{
+    color: #828282;
+  }
+}
+.more-news{
+  cursor: pointer;
+  color: $theme-color;
+  position: relative;
+  left: 5rem;
+}
+.underline{
+  text-decoration: underline;
+  cursor: pointer;
+}
