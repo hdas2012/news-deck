@@ -156,11 +156,15 @@ export default class NewsComponent extends React.Component {
           </tbody>
         </table>
         {this.state.news.length > 0 && (
-          <span className="more-news" onClick={() => this.loadMore()}>
-            More
-          </span>
+          <React.Fragment>
+            <span className="more-news" onClick={() => this.loadMore()}>
+              More
+            </span>
+            <GraphComponent news={this.state.news} />
+          </React.Fragment>
         )}
-        <GraphComponent news={this.state.news} />
+        
+         
       </div>
     );
   }

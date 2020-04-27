@@ -11,6 +11,7 @@
     "expect": "25.4.0",
     "jsdom": "16.2.2",
     "mocha": "7.1.2",
+    "node-sass": "^4.14.0",
     "react": "16.12.0",
     "react-addons-test-utils": "15.6.2",
     "react-chartjs-2": "2.9.0",
@@ -26,10 +27,6 @@
     "build": "react-scripts build",
     "test": "mocha --reporter spec testSetup.js \"components/*.spec.js\"",
     "eject": "react-scripts eject"
-  },
-  "engines": {
-    "node": "12.16.2",
-    "npm": "6.14.4"
   },
   "browserslist": [
     ">0.2%",
